@@ -91,11 +91,12 @@ div:hover .Overlay {
 
 .first, .second, .third {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   padding: 30px;
   transition: transform 0.3s ease;
   width: 1000px;
-  margin: auto;
+  padding-left: 800px;
 }
 
 /* CSS for image gallery animation */
